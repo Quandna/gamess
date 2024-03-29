@@ -1444,5 +1444,61 @@ h2.b-w3ltxt, h3.b-w3ltxt {
     padding-bottom: 100px;
 }
 .colbaner{
-    
+    background-color: #293491;
+    border-radius: 0px 15px 0 15px;
+    color: #f8f389 ;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.colbaner-1 {
+    background-color: #293491;
+    border-radius: 15px 15px 0 0;
+    color: #f8f389 ;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.doituongtuyensinh {
+
+}
+.columns1Banner {
+    color: #000;
+    border-radius: 10px;
+    border-color: #ef363c;
+    border-width: 3px;
+    border-style: solid;
+    background: linear-gradient(180deg, rgb(249, 239, 232), rgb(255, 255, 255));
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.columns2Banner {
+    color: #000;
+    border-radius: 10px;
+    border-color: #ef363c;
+    border-width: 3px;
+    border-style: solid;
+    height: 150px;
+    background: linear-gradient(180deg, rgb(249, 239, 232), rgb(255, 255, 255));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
 }
