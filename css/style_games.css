@@ -1578,19 +1578,6 @@ h2.b-w3ltxt, h3.b-w3ltxt {
     padding: 15px 0;
     line-height: auto;
 }
-.textred{
-    height: auto;
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    background-color: #ff5555;
-    border: 1px ;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 15px 0;
-    line-height: auto;
-}
 .banner3col1row1 {
     border-radius: 10px;
     border-width: 3px;
