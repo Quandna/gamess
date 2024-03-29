@@ -1591,3 +1591,40 @@ h2.b-w3ltxt, h3.b-w3ltxt {
     padding: 15px 0;
     line-height: auto;
 }
+.banner3col1row1 {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #f3f3f4;
+    border-style: solid;
+    background: linear-gradient(180deg, rgb(249, 239, 232), rgb(255, 255, 255));
+    line-height: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+.banner3col1row2 {
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f3f3f4;
+    background: linear-gradient(180deg, rgb(249, 239, 232), rgb(255, 255, 255));
+    line-height: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+.banner3col2row1 {
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f3f3f4;
+    background: linear-gradient(180deg, rgb(249, 239, 232), rgb(255, 255, 255));
+    line-height: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
