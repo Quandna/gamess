@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>ezWork - Giải pháp quản lý trực ca thông minh</title>
+    <!-- Meta tag Keywords -->
+	<meta name="zalo-platform-site-verification" content="JE2-1OsMCGqFf8K8ofOr9p6ol7pTpMagCJ8" />
+	<meta name="zalo-platform-site-verification" content="QzMUSU2hJoiBdUKyZAnqQqkEfccdy74tDpC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="ezwork, saas, giải pháp, quản lý trực ca, trực, đa nghiệp vụ, cdit, ezwater, thông minh, 4.0, viện công nghệ thông tin và truyền thông, an ninh, chỉ số nước, tòa nhà, kỹ thuật, quét mã QR, QR code" />
+    <!-- //Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+	<link rel="shortcut icon" id="favicon" href="images/logo ezwater.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	  <link rel="stylesheet" href="css/slider.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- //Fonts -->
+	
+</head>
+<body>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-63KRHM8CBT"></script>
+	<!--script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-63KRHM8CBT');
+	</script-->
+    <script type="text/javascript">	
+		var url = window.location.href;
+		if(url.indexOf("invite")>0){
+			window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf1ef8GKhBg_04pBTbLbCsQi4jYL4ZRhwDg67m0gn96osRRmQ/viewform?usp=sf_link'
+		}
+        if(url.indexOf("ezwork.vn")>0){
+			$("#favicon").attr("href","images/ezwork_logo.png");
+            document.title = "ezWork";
+            $(function (){
+                $.get("work.html", function(data){
+                    $("body").append(data);
+                });
+            });
+        }else{
+			$("#favicon").attr("href","images/ezwater_logo.png");
+            $(function(){
+                document.title = "ezWater";
+                $.get("games.html", function(data){
+                    $("body").append(data)
+                });
+            });
+        }
+    </script>	 
+	<!--div class="row col-md-12">
+		<div class="pull-right margin-bottom-10">
+			<p>Lượt truy cập trang:  
+			<span>
+				<a href="">
+					<img src="http://hitwebcounter.com/counter/counter.php?page=7151560&style=0027&nbdigits=6&type=page&initCount=001000" title="" Alt=""   border="0" >
+				</a>                                        
+				<br/>
+			</span> 
+		</p>
+		</div>
+		
+	</div-->
+</body>
+</html>
