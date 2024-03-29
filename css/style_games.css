@@ -1444,6 +1444,7 @@ h2.b-w3ltxt, h3.b-w3ltxt {
     padding-bottom: 100px;
 }
 .colbaner{
+<<<<<<< Updated upstream
     background-color: #293491;
     border-radius: 0px 15px 0 15px;
     color: #f8f389 ;
@@ -1501,4 +1502,64 @@ h2.b-w3ltxt, h3.b-w3ltxt {
     font-size: 15px;
     font-weight: 500;
     padding-left: 20px;
+=======
+    
+}
+.workplace{
+    background: url("../images/games/workplace.png")no-repeat center;
+    background-size: 100% 600px;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_workplace{
+    background-color: white;
+    width: 550px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 20px;
+    border-color: #ED1D24;
+    border-width: 3px;
+    border-style: solid; /* Chọn kiểu của viền */
+}
+.text_dacthu{
+    padding: 10px 10%;
+}
+.dacthu{
+    background: url("../images/games/dacthu.png")no-repeat center;
+    background-size: 100% auto;
+    width: 100%;
+    height: auto;
+}
+.heading_dacthu{
+    margin-left: 10%;
+    font-size: 40px;
+    color: #ED1D24;
+    font-weight: 500;
+}
+.kihoc{
+    background: url("../images/games/kihocbackground.png")no-repeat center;
+    background-size: 100% auto;
+    width: 100%;
+    height: 600px;
+}
+.nhanbang{
+    background-color: #ff6f50;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 'bold';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.monhochapdan{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+>>>>>>> Stashed changes
 }
